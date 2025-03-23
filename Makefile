@@ -1,9 +1,9 @@
-all: 8601-secs
+all: iso8601-duration
 
-8601-secs: 8601-secs.c duration.o duration.h
-	$(CC) $(CFLAGS) -o 8601-secs 8601-secs.c duration.o
+iso8601-duration: iso8601-duration.c duration.o duration.h
+	$(CC) $(CFLAGS) -o iso8601-duration iso8601-duration.c duration.o
 
 clean:
 	rm -f *.o
 clobber: clean
-	rm -f 8601-secs
+	rm -f iso8601-duration

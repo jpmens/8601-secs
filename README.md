@@ -1,7 +1,7 @@
 ## duration
 
 ```console
-$ ./8601-secs P1D PT2H5S P1Y P4H10M5S
+$ ./iso8601-duration P1D PT2H5S P1Y P4H10M5S
 86400
 7205
 31536000
