@@ -1,2 +1,2 @@
 - [ ] usage
-- [ ] man page
+- [ ] manpage
